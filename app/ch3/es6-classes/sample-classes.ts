@@ -29,3 +29,5 @@ class Developer extends Human {
     return `${super.talk()} And I know ${this.languages.join(', ')}.`;
   }
 }
+
+console.log(new Developer("de", ["js"]).talk());

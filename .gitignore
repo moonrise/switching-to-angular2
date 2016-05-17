@@ -40,3 +40,5 @@ test
 tools/typings/tsd
 typings
 tmp
+
+app/**/*.js

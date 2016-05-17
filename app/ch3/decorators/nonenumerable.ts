@@ -1,11 +1,15 @@
 class Person {
-  @nonenumerable
+  @Nonenumerable
   get kidCount() {
     return 42;
   }
+  
+  get parentCount() {
+    return 2;
+  }
 }
 
-function nonenumerable(target, name, descriptor) {
+function Nonenumerable(target, name, descriptor) {
   descriptor.enumerable = false;
   return descriptor;
 }
