@@ -8,6 +8,7 @@ import {
 } from 'angular2/core';
 
 const BUFFER_SIZE = new OpaqueToken('buffer-size');
+// const BUFFER_SIZE = Symbol('buffer-size');
 
 class Buffer {
   constructor(@Inject(BUFFER_SIZE) private size: Number) {
