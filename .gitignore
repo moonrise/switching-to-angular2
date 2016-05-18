@@ -42,3 +42,8 @@ typings
 tmp
 
 app/**/*.js
+app/**/*.js.map
+tools/**/*.js
+tools/**/*.js.map
+gulpfile.js
+gulpfile.js.map
